@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VLM-FO1: Bridging the Gap Between High-Level Reasoning and Fine-Grained Perception
 
 <p align="center">
@@ -156,3 +157,7 @@ If you find VLM-FO1 useful in your research or applications, please cite our wor
 - Dataset images used above are from public benchmarks ([Pixmo-Count](https://huggingface.co/datasets/allenai/pixmo-count), [CountBenchQA](https://huggingface.co/datasets/vikhyatk/CountBenchQA)), credited to their respective authors.
 - Thanks to the numerous researchers and developers who have contributed to the datasets used in our training.
 
+=======
+# VLM-FO1
+## Open Source Code and Model Coming Soon !!!
+>>>>>>> 720ae38319af2f024238fb7c6985cd67ef3f8d89
