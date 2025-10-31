@@ -31,6 +31,14 @@ For more details, check out our **[paper](https://arxiv.org/abs/2403.06892)**
   <img src="assets/structure.png" alt="VLM-FO1 Overall Results" style="max-width:100%;">
 </p>
 
+## 🔗 Related works
+If you are interested in our research, we welcome you to explore our other wonderful projects.
+- 🔆 [Om AI Lab Blogs](https://om-ai-lab.github.io/index.html)
+- 🔆 [VLM-R1: A stable and generalizable R1-style Large Vision-Language Model](https://github.com/om-ai-lab/VLM-R1/tree/main)
+- 🔆 [OmAgent: Build Multimodal Language Agents with Ease](https://github.com/om-ai-lab/OmAgent)
+- 🔆 [OmDet-Turbo: Real-time and accurate open-vocabulary end-to-end object detection](https://github.com/om-ai-lab/OmDet)
+- 🔆 [ZoomEye: Enhancing Multimodal LLMs with Human-Like Zooming Capabilities through Tree-Based Image Exploration](https://github.com/om-ai-lab/ZoomEye)
+
 
 ## 📋 Table of Contents
 
