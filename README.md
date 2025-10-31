@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # VLM-FO1: Bridging the Gap Between High-Level Reasoning and Fine-Grained Perception
 
 <p align="center">
@@ -35,14 +34,14 @@ For more details, check out our **[paper](https://arxiv.org/abs/2403.06892)**
 
 ## 📋 Table of Contents
 
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-  - [Inference with Provided Bounding Boxes](#2-inference-with-provided-bounding-boxes)
-  - [Inference with UPN Detector](#3-inference-with-upn-detector)
-- [Task Templates](#task-templates)
-- [Evaluation](#evaluation)
-- [Citation](#citation)
-- [Acknowledgements](#acknowledgements)
+- Installation
+- Quick Start
+  - Inference with Provided Bounding Boxes
+  - Inference with Object Detector
+- Task Templates
+- Evaluation
+- Citation
+- Acknowledgements
 
 ## 🛠️ Installation
 
@@ -89,7 +88,7 @@ python inference.py
 
 The visualization with predicted boxes will be saved to `demo/vlm_fo1_result.jpg`.
 
-### 3) Inference with UPN Detector
+### 3) Inference with Object Detector
 
 **Note:** Due to company policy, we are unable to release the object detector OPN referenced in our paper. Instead, we provide integration with UPN (from [ChatRex](https://github.com/IDEA-Research/ChatRex)), which offers similar functionality. You are also free to use any object detector of your choice by preparing bounding box proposals compatible with our pipeline.
 
@@ -157,7 +156,3 @@ If you find VLM-FO1 useful in your research or applications, please cite our wor
 - Dataset images used above are from public benchmarks ([Pixmo-Count](https://huggingface.co/datasets/allenai/pixmo-count), [CountBenchQA](https://huggingface.co/datasets/vikhyatk/CountBenchQA)), credited to their respective authors.
 - Thanks to the numerous researchers and developers who have contributed to the datasets used in our training.
 
-=======
-# VLM-FO1
-## Open Source Code and Model Coming Soon !!!
->>>>>>> 720ae38319af2f024238fb7c6985cd67ef3f8d89
