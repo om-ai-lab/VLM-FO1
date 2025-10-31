@@ -54,7 +54,7 @@ For more details, check out our **[paper](https://arxiv.org/abs/2403.06892)**
 ### Setup
 
 ```bash
-git clone [repo link placeholder]
+git clone https://github.com/om-ai-lab/VLM-FO1.git
 cd VLM-FO1
 pip install -r requirements.txt
 ```
@@ -62,8 +62,8 @@ pip install -r requirements.txt
 If you use conda:
 
 ```bash
-conda create -n vlmfo1 python=3.10 -y
-conda activate vlmfo1
+conda create -n vlm-fo1 python=3.10 -y
+conda activate vlm-fo1
 pip install -r requirements.txt
 ```
 
