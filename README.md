@@ -123,7 +123,6 @@ pip install -r requirements.txt
 Download the pre-trained VLM-FO1 checkpoints from Hugging Face and place them under `resources/`:
 
 - Pre-trained model: [Hugging Face link](https://huggingface.co/omlab/VLM-FO1_Qwen2.5-VL-3B-v01)
-- Suggested local path: `resources/VLM-FO1_Qwen2.5-VL-3B-v01/`
 
 ### 2) Inference with Provided Bounding Boxes
 
@@ -234,7 +233,7 @@ We provide task templates to facilitate tasks beyond detection (e.g., counting, 
 **Model performance when integrated with UPN is as follows:**
 | Model                          | COCO mAP | CountBench Accuracy | Pixmo-Count Accuracy |  HumanRef DF1/P/R |   LVIS SS/S-IoU | PACO SS/S-IoU | COCOText |
 |---------------------------------|----------|----------|----------|----------|------|------|------|       
-| VLM-FO1_Qwen2.5-VL-3B-v01 (FO1 + UPN) |   44.4   |       89.73%        |       85.07%         |    82.6/86.8/83.5|   92.5/87   |  88.1/77.9 |  57.1 |
+| VLM-FO1-3B-v01 (FO1 + UPN) |   44.4   |       89.73%        |       85.07%         |    82.6/86.8/83.5|   92.5/87   |  88.1/77.9 |  57.1 |
 
 For benchmarking FO1 with UPN on your datasets, you can adapt the inference pipeline to export predictions and compare against ground-truth. We also include evaluation utilities under `evaluation/` for specific tasks.
 
@@ -255,8 +254,6 @@ If you find VLM-FO1 useful in your research or applications, please cite our wor
 ```
 
 ## 🙏 Acknowledgements
-- Thanks to the Qwen Team for their powerful [Qwen2.5-VL](https://github.com/QwenLM/Qwen3-VL) model.
-- UPN detector is integrated from an external open-source project. Please refer to: [ChatRex](https://github.com/IDEA-Research/ChatRex)
 - Dataset images used above are from public benchmarks ([Pixmo-Count](https://huggingface.co/datasets/allenai/pixmo-count), [CountBenchQA](https://huggingface.co/datasets/vikhyatk/CountBenchQA)), credited to their respective authors.
 - Thanks to the numerous researchers and developers who have contributed to the datasets used in our training.
 
