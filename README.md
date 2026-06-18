@@ -6,12 +6,12 @@
         src="https://img.shields.io/badge/VLM_FO1-Paper-blue?logo=arxiv" 
     />
   </a> 
- <a href="https://huggingface.co/omlab/VLM-FO1_Qwen2.5-VL-3B-v01">
+ <a href="https://huggingface.co/omlab/VLM-FO1-3B-v01">
     <img 
         src="https://img.shields.io/badge/VLM_FO1-Model-orange?logo=huggingface" 
     />
   </a>
- <a href="https://modelscope.cn/models/Om_AI_Lab/VLM-FO1_Qwen2.5-VL-3B-v01">
+ <a href="https://modelscope.cn/models/Om_AI_Lab/VLM-FO1-3B-v01">
     <img 
         src="https://img.shields.io/badge/ModelScope-%E6%A8%A1%E5%9E%8B-purple?logo=modelscope" 
     />
@@ -40,7 +40,7 @@ For more details, check out our **[paper](https://arxiv.org/abs/2509.25916)**
 
 ## 📰 Update News
 
-- **2026-03-12** — We are excited to announce that our models are now available on [ModelScope](https://modelscope.cn/models/Om_AI_Lab/VLM-FO1_Qwen2.5-VL-3B-v01)!
+- **2026-03-12** — We are excited to announce that our models are now available on [ModelScope](https://modelscope.cn/models/Om_AI_Lab/VLM-FO1-3B-v01)!
 - **2025-11-28** — We released a new [video tracking demo](#6-inference-with-sam3--vlm-fo1-video-tracking-gradio-demo) that combines **SAM3 video tracking** with **VLM-FO1**, enabling interactive object detection and tracking across video frames with complex natural language prompts.
 - **2025-11-21** — We released a new demo that integrates **[SAM3](https://github.com/facebookresearch/sam3)** with **VLM-FO1**, enabling stronger segmentation fidelity and more reliable detection under complex, compositional label prompts. Check this section [Inference with SAM3 + VLM-FO1 Gradio Demo](#5-inference-with-sam3--vlm-fo1-gradio-demo) about how to run it. Or try the [huggingface demo](https://huggingface.co/spaces/P3ngLiu/SAM3_VLM-FO1)
 
@@ -122,7 +122,7 @@ pip install -r requirements.txt
 
 Download the pre-trained VLM-FO1 checkpoints from Hugging Face and place them under `resources/`:
 
-- Pre-trained model: [Hugging Face link](https://huggingface.co/omlab/VLM-FO1_Qwen2.5-VL-3B-v01)
+- Pre-trained model: [Hugging Face link](https://huggingface.co/omlab/VLM-FO1-3B-v01)
 
 ### 2) Inference with Provided Bounding Boxes
 
