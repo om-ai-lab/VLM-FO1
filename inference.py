@@ -11,8 +11,8 @@ from vlm_fo1.task_templates import OD_template
 
 # Paths to required files
 img_path = "demo/demo_image.jpg"             # Path to input image
-model_path = 'omlab/VLM-FO1_Qwen2.5-VL-3B-v01'  # VLM FO1 model path
-# model_path = './resources/VLM-FO1_Qwen2.5-VL-3B-v01'  # VLM FO1 model path
+model_path = 'omlab/VLM-FO1-3B-v01'  # VLM FO1 model path
+# model_path = './resources/VLM-FO1-3B-v01'  # VLM FO1 model path
 
 bbox_list = [[161.0, 11.0, 292.0, 127.0], [268.0, 61.0, 428.0, 226.0], [12.0, 100.0, 140.0, 227.0], [205.0, 188.0, 332.0, 320.0], [326.0, 202.0, 478.0, 357.0], [136.0, 106.0, 269.0, 233.0], [25.0, 206.0, 200.0, 383.0]]
 
