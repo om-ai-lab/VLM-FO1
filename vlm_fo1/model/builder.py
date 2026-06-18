@@ -36,7 +36,7 @@ def load_pretrained_model(model_path, load_8bit=False, load_4bit=False, device="
         # Load tokenizer (slow tokenizer enforced)
         tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
         # If this is the Qwen2.5-VL variant, load with additional kwargs
-        if 'qwen2.5-vl' in model_path.lower() or 'qwen2_5_vl' in model_path.lower():
+        if 'qwen2.5-vl' in model_path.lower() or 'qwen2_5_vl' in model_path.lower() or "vlm-fo1-3b" in model_path.lower():
             model, loading_info = OmChatQwen25VLForCausalLM.from_pretrained(
                 model_path,
                 low_cpu_mem_usage=True,
@@ -60,7 +60,7 @@ def load_pretrained_model(model_path, load_8bit=False, load_4bit=False, device="
             primary_image_processor = primary_vision_tower.image_processor
 
         # --- Auxiliary Vision Tower Handling (Qwen2.5-VL case only) ---
-        if 'qwen2.5-vl' in model_path.lower() or 'qwen2_5_vl' in model_path.lower():
+        if 'qwen2.5-vl' in model_path.lower() or 'qwen2_5_vl' in model_path.lower() or "vlm-fo1-3b" in model_path.lower():
             try:
                 aux_image_size = model.config.aux_image_size
             except Exception:
